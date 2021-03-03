@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Custom_Cel Shaded Grayscale
-  m_Shader: {fileID: 4800000, guid: 5f26a1ec390115442a888b51f2e089e0, type: 3}
+  m_Name: Robot_Color
+  m_Shader: {fileID: 2, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,22 +19,14 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _Hatch:
-        m_Texture: {fileID: 2800000, guid: 75d1c0bad8bb0874aa76a41cdb48caf4, type: 3}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 94c473c9137744d7eabd829f1150da8d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: fa4978555833b5a4fb14dc520f99c5e9, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0a0e8af2869fa45f78e25460db578482, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _AlphaCutoff: 0
-    - _Brightness: 0.288
-    - _Detail: 0.138
-    - _Grayscale: 1
-    - _HatchIntensity: 1
-    - _Intensity: 0.504
-    - _ShadingDetail: 0.8
-    - _Steps: 0.752
-    - _Strength: 0.395
-    m_Colors: []
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
