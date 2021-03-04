@@ -1,3 +1,4 @@
 # MangaShader
 
-![](csgs.gif)
+![](ms1.gif)
+![](ms2.gif)
