@@ -81,12 +81,10 @@
         }
 
 
-        
         Pass 
         {
             Tags { "Queue" = "Transparent" }
         	Name "BASE"
-        	Cull Back
         	Blend Zero One
         }
 
@@ -119,7 +117,6 @@
 
             v2f vert(appdata v)
             {
-                // just make a copy of incoming vertex data but scaled according to normal direction
                 v2f o;
                 o.pos = UnityObjectToClipPos(v.vertex);
 
