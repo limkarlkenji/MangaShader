@@ -4,13 +4,13 @@
     {
         _MainTex("Texture", 2D) = "white" {}
         _Hatch("Hatch Texture", 2D) = "white" {}
-        _HatchIntensity("Hatch Intensity", Range(0, 1)) = 0.5
+        _HatchIntensity("Hatch Intensity", Range(0, 1)) = 0.0
         _Intensity("Intensity", Range(0,1)) = 0.3
         _Strength("Strength", Range(0,1)) = 0.5
         _Steps("Steps", Range(0,1)) = 0.3
         _Saturation("Saturation", Range(0, 1)) = 0.0
         _OutlineColor("Outline Color", Color) = (0, 0, 0, 1)
-        _OutlineThickness("Outline Thickness", Range(0, 0.5)) = 0.5 
+        _OutlineThickness("Outline Thickness", Range(0, 0.5)) = 0.0 
     }
 
     SubShader
